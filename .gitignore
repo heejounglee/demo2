@@ -1,33 +1,31 @@
-HELP.md
-target/
-.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
+### JetBrains (IntelliJ) 관련 ###
+.idea/
 *.iws
 *.iml
 *.ipr
+out/
+gen/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+### 빌드 결과물 (Gradle/Maven) ###
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+bin/
+target/
+*.class
+*.jar
+*.war
+*.ear
 
-### VS Code ###
-.vscode/
+### 로그 및 임시 파일 ###
+*.log
+logs/
+temp/
+tmp/
+
+### 운영체제 관련 ###
+.DS_Store
+Thumbs.db
+
+### Spring Boot 설정 (보안 주의) ###
+# 민감한 정보가 담긴 파일은 제외 권장
+# application-local.yml
+# .env
