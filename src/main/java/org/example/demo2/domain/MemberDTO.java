@@ -1,0 +1,14 @@
+package org.example.demo2.domain;
+
+import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+@Data
+public class MemberDTO {
+    private int memberId;
+    private String name;
+    private String address;
+}
