@@ -13,4 +13,6 @@ public class MemberDTO {
     private String address;
 
     //소스 수정 1
+    //소스 수정 1
+    //소스 수정 3
 }
