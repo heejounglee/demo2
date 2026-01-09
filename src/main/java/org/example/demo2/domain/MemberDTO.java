@@ -11,4 +11,6 @@ public class MemberDTO {
     private int memberId;
     private String name;
     private String address;
+
+    //소스 수정 1
 }
